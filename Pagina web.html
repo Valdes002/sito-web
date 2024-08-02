@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riccardo Valdevies - Amministratore di Condomini</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #0073e6;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header img {
+            width: 100px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        nav {
+            text-align: center;
+            padding: 10px;
+            background-color: #005bb5;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        .section-title {
+            color: #0073e6;
+            border-bottom: 2px solid #0073e6;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .content {
+            line-height: 1.6;
+        }
+        .contact-form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #0073e6;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #005bb5;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #005bb5;
+            color: white;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Coat_of_arms_of_Genoa.svg/1200px-Coat_of_arms_of_Genoa.svg.png" alt="Logo di Genova">
+        <h1>Riccardo Valdevies</h1>
+        <p>Amministratore di Condomini</p>
+    </header>
+    <nav>
+        <a href="#chi-siamo">Chi Siamo</a>
+        <a href="#contatto">Contatto</a>
+    </nav>
+    <div class="container">
+        <section id="chi-siamo">
+            <h2 class="section-title">Chi Siamo</h2>
+            <div class="content">
+                <p>Sono Riccardo Valdevies, un esperto amministratore di condomini con oltre 10 anni di esperienza nel settore. Offro servizi professionali di gestione condominiale, assicurando sempre la massima trasparenza e efficienza. Il mio obiettivo è garantire il benessere e la soddisfazione di tutti i residenti, occupandomi di tutte le necessità amministrative con precisione e competenza.</p>
+            </div>
+        </section>
+        <section id="contatto">
+            <h2 class="section-title">Contatto</h2>
+            <div class="content">
+                <form class="contact-form">
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Messaggio</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <button type="submit">Invia</button>
+                </form>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Riccardo Valdevies. Tutti i diritti riservati.</p>
+    </footer>
+</body>
+</html>
